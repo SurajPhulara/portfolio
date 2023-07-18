@@ -1,0 +1,38 @@
+.navbar{
+    position: absolute;
+    height: 85px;
+    width: 100vw;
+    box-sizing: border-box;
+    background-image: url("../../assets/bg1.png");
+    background: rgb(255 255 255 / 10%);
+    padding: 10px 4vw;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.navbar_left{
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.navbar_right{
+    display: flex;
+    font-size: 1.4rem;
+    gap: 3vw;
+    font-weight: 700;
+    align-items: center;
+}
+
+.hire_btn{
+    padding: 12px 20px 8px 20px;
+    border-radius: 12px 0 12px 0;
+    background: #e88c09;
+    color: #fff;
+    border-radius: 0 12px 0 12px;
+    margin-left: 3vw;
+}
