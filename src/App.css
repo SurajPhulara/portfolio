@@ -1,3 +1,14 @@
 .App{
   width: 100vw;
 }
+
+.btn{
+  padding: 12px 20px 8px 20px;
+    border-radius: 12px 0 12px 0;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  
+  .yellowbg{
+    background: #e88c09;
+}
