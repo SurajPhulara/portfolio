@@ -69,14 +69,13 @@
 }
 
 #about-me{
-    padding: 0 0 0 2vw;
+    padding: 0 2vw 0 2vw;
     /* height: fit-content; */
     height: 45rem;
     gap: 20px;
     /* height: 100vh; */
     margin-bottom: 50px;
 }
-
 .profession{
     min-width: fit-content;
     width: fit-content;
@@ -87,9 +86,18 @@
         flex-direction: column;
         min-height: fit-content;
         height: fit-content;
-        justify-content: space-between;
+        /* justify-content: space-between; */
+        justify-content: center;
+        text-align: center;
+        /* text-align: justify; */
+
+        /* border: 2px solid red; */
     }
     
+.socialmedia{
+    display: flex;
+    justify-content: center;
+}
     #about-me .left{
         padding: 5vw;
         flex-direction: row;
@@ -99,6 +107,10 @@
     #about-me .right{
         padding: 0 5vw;
         width: 100%;
+    }
+
+    .about-me_detail{
+        text-align: justify;
     }
 }
 
