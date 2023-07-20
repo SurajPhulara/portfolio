@@ -3,6 +3,7 @@
     height: 300px;
     width: 250px;
     box-sizing: border-box;
+    pad: 0 20%;
 }
 .card:hover{
     background: #D9D8EA;

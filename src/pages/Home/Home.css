@@ -171,8 +171,8 @@
   }
   @media (max-width: 500px){
     .profession{
-        /* flex-direction: column; */
-        font-size: 3rem;
+        flex-direction: column;
+        /* font-size: 3rem; */
     }
   }
 
