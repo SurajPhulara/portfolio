@@ -22,7 +22,7 @@
     height: fit-content;
     min-height: fit-content;
     /* box-sizing: border-box; */
-    padding-top: 10px;
+    padding-top: 50px;
 }
 
 .hero-bg{
@@ -76,6 +76,11 @@
     /* height: 100vh; */
 }
 
+.profession{
+    min-width: fit-content;
+    width: fit-content;
+}
+
 @media (max-width: 1110px) {
     #about-me{
         flex-direction: column;
@@ -111,6 +116,7 @@
   }
 
   @media (max-width: 950px) {
+
     .hero_section{
         padding-left: 5vw;
         padding-right: 2vw;
@@ -142,10 +148,10 @@
     }
   }
 
-  @media (max-width: 850px) {
+  @media (max-width: 870px) {
     .hero_section{
         flex-direction: column;
-        padding: 140px 5vw;
+        padding: 160px 5vw 140px;
     }
     .hero_section > *{
         width: auto;
@@ -155,8 +161,8 @@
     }
   }
 
-  @media (max-width: 410px){
+  @media (max-width: 500px){
     .profession{
-        flex-direction: column;
+        /* flex-direction: column; */
     }
   }

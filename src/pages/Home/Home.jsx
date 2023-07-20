@@ -11,7 +11,7 @@ const Home = () => {
         {/* <img src={bg1} className='hero-bg' alt="" /> */}
         <div className="hero_content flex flex-col h-fit gap-8 text-2xl w-2/4 w-3/5 w-1/2">
           <div className="intro w-max"> Hello, my name is <span className="name text-2xl w-fit"> Suraj Phulara </span></div>
-          <div className="profession text-7xl font-bold w-max flex gap-5 w-fit">I'm a
+          <div className="profession text-7xl text-6xl font-bold w-max flex gap-5 w-fit">I'm a
             <Typewriter
               options={{
                 strings: [`Developer`, 'Designer'],
