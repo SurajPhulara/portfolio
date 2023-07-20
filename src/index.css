@@ -41,11 +41,11 @@ html {
   /* html { font-size: 10px; } */
 }
 @media (max-width: 880px) {
-  /* html { font-size: 8px; } */
+  html { font-size: 12px; }
   .navbar{
     height: 40px;
   }
 }
 @media (max-width: 515px) {
-  html { font-size: 10px; }
+  /* html { font-size: 12px; } */
 }
