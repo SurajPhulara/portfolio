@@ -68,9 +68,10 @@
 }
 
 #about-me{
-    /* padding: 0 5vw; */
+    padding: 0 0 0 2vw;
     /* height: fit-content; */
     height: 45rem;
+    gap: 20px;
     /* height: 100vh; */
 }
 
@@ -80,7 +81,6 @@
         min-height: fit-content;
         height: fit-content;
         justify-content: space-between;
-        border: 5px solid green;
     }
     
     #about-me .left{
