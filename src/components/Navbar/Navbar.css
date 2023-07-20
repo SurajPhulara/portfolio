@@ -1,16 +1,18 @@
 .navbar{
-    position: absolute;
+    position: fixed;
     height: 85px;
+    min-height: fit-content;
     width: 100vw;
     box-sizing: border-box;
     background-image: url("../../assets/bg1.png");
-    background: rgb(255 255 255 / 10%);
-    padding: 10px 4vw;
+    background-size: 100% auto;
+    /* background: rgb(255 255 255 / 10%); */
+    padding: 0px 5vw;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 1;
+    z-index: 999;
 }
 
 .navbar_left{
@@ -22,9 +24,9 @@
 
 .navbar_right{
     display: flex;
-    font-size: 1.4rem;
+    font-size: 22px;
     gap: 3vw;
-    font-weight: 700;
+    font-weight: 600;
     align-items: center;
 }
 
@@ -35,4 +37,80 @@
     color: #fff;
     border-radius: 0 12px 0 12px;
     margin-left: 3vw;
+}
+
+
+.navbar_menu-toggle{
+    display: none;
+    cursor: pointer;
+}
+
+.navbar_dropdown {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #FFFFFF;
+    background-image: url("../../assets/bg1.png");
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    font-size: 22px;
+    /* position: fixed;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: inherit;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 0;
+    box-sizing: border-box; */
+
+    animation: slideIn 0.3s forwards;
+    border: 5px solid green;
+    backdrop-filter: blur(10px);
+    box-sizing: border-box;
+
+  }
+
+  .navbar_dropdown a {
+    padding: 10px 20px;
+    transition: transform 0.3s ease;
+    font-size: 20px;
+    margin-right: 10vw;
+  }
+
+  .navbar_dropdown a:hover {
+    transform: scale(1.2,1.2);
+  }
+
+
+@keyframes slideIn {
+    from {
+      left: 100%;
+    }
+    to {
+      left: 0;
+    }
+  }
+
+@media screen and (max-width: 1000px) {
+
+    .navbar_links{
+        display: none;
+    }
+
+    .navbar_menu-toggle,
+    .navbar_dropdown
+    .navbar_links_menubar{
+        display: block;
+    }
+    
 }

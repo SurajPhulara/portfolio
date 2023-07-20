@@ -1,3 +1,15 @@
 .card{
-    /* filter: drop-shadow(0 0 13.5px rgba(0,0,0,0.09)); */
+    cursor: pointer;
+    height: 300px;
+    width: 250px;
+    box-sizing: border-box;
 }
+.card:hover{
+    background: #D9D8EA;
+  }
+
+  @media (max-width: 552px){
+    .card{
+        /* min-width: 80%; */
+    }
+  }
