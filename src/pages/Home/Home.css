@@ -69,12 +69,12 @@
 }
 
 #about-me{
-    padding: 0 2vw 0 2vw;
+    padding:0 2vw 0 2vw;
     /* height: fit-content; */
     height: 45rem;
     gap: 20px;
     /* height: 100vh; */
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 .profession{
     min-width: fit-content;
