@@ -63,7 +63,7 @@ const Home = () => {
           <SkillCards image={uxicon} name="UX/UI DESIGN"></SkillCards>
           <SkillCards image={figma} name="FIGMA"></SkillCards>
           <SkillCards image={muicon} name="MATERIAL UI"></SkillCards>
-          <SkillCards image={html} name="HTMLs"></SkillCards>
+          <SkillCards image={html} name="HTML"></SkillCards>
           <SkillCards image={css} name="CSS"></SkillCards>
           <SkillCards image={js} name="JAVASCRIPT"></SkillCards>
           <SkillCards image={reacticon} name="React Js"></SkillCards>
