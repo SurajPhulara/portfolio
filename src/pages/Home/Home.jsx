@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Home.css"
-import { bg1, designerIcon, developerIcon, freelancerIcon, githubicon, linkedinicon, man } from '../../assets'
+import { bg1, designerIcon, developerIcon, freelancerIcon, githubicon, linkedinicon, man, resume } from '../../assets'
 import Typewriter from 'typewriter-effect';
 import Cards from '../../components/Cards/Cards';
 
@@ -24,7 +24,7 @@ const Home = () => {
             I'm a Full-Stack Web Developer and UX/UI Designer who loves bringing digital ideas to life. I specialize in creating stunning websites and eye-catching mockups that captivate and engage users.
           </div>
           <div className="flex gap-8">
-            <a href="#" className="btn yellowbg text-xl hover:shadow-[0_4px_0px_rgb(0,0,0,.2)] w-max "> Download CV </a>
+            <a href={resume} download="resume.pdf" className="btn yellowbg text-xl hover:shadow-[0_4px_0px_rgb(0,0,0,.2)] w-max "> Download CV </a>
             <a href="#" className="btn text-xl bg-white text-blue-600 font-semibold hover:shadow-[0_4px_0px_rgb(0,0,0,.2)] "> Hire Me Now </a>
           </div>
         </div>

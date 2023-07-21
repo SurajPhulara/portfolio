@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Navbar.css"
-import { doc, menuIcon } from '../../assets'
+import { doc, menuIcon, resume } from '../../assets'
 
 const Navbar = () => {
 
@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <a href="#" className="navbar_left">
+      <a href={resume} download="resume.pdf" className="navbar_left">
         <img src={doc} alt="" />
         <div className="">CV-Resume</div>
       </a>
