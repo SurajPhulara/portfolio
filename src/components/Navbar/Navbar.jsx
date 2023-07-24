@@ -21,10 +21,10 @@ const Navbar = () => {
         <div className="">CV-Resume</div>
       </a>
       <div className="navbar_right">
-        <a href="#" className="navbar_links" onClick={handleNavLinkClick}>Home</a>
+        <a href="#home" className="navbar_links" onClick={handleNavLinkClick}>Home</a>
         <a href="#about-me" className="navbar_links" onClick={handleNavLinkClick}>About</a>
         <a href="#skills" className="navbar_links" onClick={handleNavLinkClick}>Skills</a>
-        <a href="#" className="navbar_links" onClick={handleNavLinkClick}>Projects</a>
+        <a href="#projects" className="navbar_links" onClick={handleNavLinkClick}>Projects</a>
         <a href="#" className="navbar_links" onClick={handleNavLinkClick}>Contact</a>
         <a href="#" className="hire_btn"> Hire Me </a>
 
@@ -38,7 +38,7 @@ const Navbar = () => {
             <a href="#" className="navbar_links_menubar" onClick={handleNavLinkClick}>Home</a>
             <a href="#about-me" className="navbar_links_menubar" onClick={handleNavLinkClick}>About</a>
             <a href="#skills" className="navbar_links_menubar" onClick={handleNavLinkClick}>Skills</a>
-            <a href="#" className="navbar_links_menubar" onClick={handleNavLinkClick}>Projects</a>
+            <a href="#projects" className="navbar_links_menubar" onClick={handleNavLinkClick}>Projects</a>
             <a href="#" className="navbar_links_menubar" onClick={handleNavLinkClick}>Contact</a>
           </div>
         )}

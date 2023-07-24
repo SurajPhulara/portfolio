@@ -81,6 +81,10 @@
     width: fit-content;
 }
 
+.projects > :nth-child(2n){
+    flex-direction: row-reverse;
+  }
+
 @media (max-width: 1110px) {
     #about-me{
         flex-direction: column;
@@ -93,7 +97,6 @@
 
         /* border: 2px solid red; */
     }
-    
 .socialmedia{
     display: flex;
     justify-content: center;
@@ -108,6 +111,11 @@
         padding: 0 5vw;
         width: 100%;
     }
+
+    .projects > :nth-child(2n){
+        flex-direction: column;
+        height: fit-content;
+      }
 }
 
 @media (max-width: 1050px) {
