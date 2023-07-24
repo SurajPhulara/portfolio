@@ -3,7 +3,6 @@ import "./ProjectCard.css"
 import { designIcon, githubicon, githubicon2, newtab } from '../../assets'
 
 const ProjectCard = ({project}) => {
-    console.log(project)
   return (
     <div className="project-cards rounded-xl overflow-hidden shadow-xl w-full h-[28rem] bg-white flex gap-8 justify-between p-6 overflow-hidden">
       <a href={project.link} target='_blank' className="project-image-container shadowv w-[48%] min-w-[48%] rounded-xl overflow-hidden" style={{boxShadow: "0 0 10px rgba(0,0,0,.15)"}}>

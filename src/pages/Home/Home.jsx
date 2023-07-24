@@ -77,7 +77,7 @@ const Home = () => {
         <div className="projects flex flex-col gap-12">
           {
             data.projects.map((item, i)=>{
-              return <ProjectCard project={item} ></ProjectCard>
+              return <ProjectCard key={i} project={item} ></ProjectCard>
             })
           }
           {/* <ProjectCard image={serenestone} scroll={true} name={"jwely ecommerce website"} ></ProjectCard>
