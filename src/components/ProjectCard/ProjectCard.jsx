@@ -22,11 +22,11 @@ const ProjectCard = ({project}) => {
                 })
             }
         </div>
-        <div className="links flex gap-4 justify-center mt-4">
+        <div className="links flex gap-4 justify-center mt-4 ">
             {
                 project.externalresources.map((item, i)=>{
                     return(
-                        <a href={item.link} target="_blank" key={i} className=" flex gap-1 items-center pl-4 pr-4 pt-1 pb-1 text-xl rounded" >
+                        <a href={item.link} target="_blank" key={i} className=" flex gap-1 items-center pl-4 pr-4 pt-1 pb-1 text-xl rounded " >
                             <p className="text-xl ">{item.name}</p>
                             <img src={item.icon} alt="" className="h-7"/>
                         </a>

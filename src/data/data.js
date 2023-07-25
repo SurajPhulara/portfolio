@@ -79,7 +79,7 @@ export const data = {
           link: "https://github.com/SurajPhulara/jwelry-store"
         },
         {
-          name: "Live Demo",
+          name: "Preview",
           icon: newtab,
           link: "https://serenestones.netlify.app"
         },
@@ -93,7 +93,7 @@ export const data = {
       technologies: ["React Js", "Material UI", "Node Js", "Express Js", "MongoDB"],
       externalresources: [
         {
-          name: "Inspiration",
+          name: "Idea",
           icon: designIcon,
           link: "https://docs.google.com/forms"
         },{
@@ -102,7 +102,7 @@ export const data = {
           link: "https://github.com/SurajPhulara/Google-Forms-Clone"
         },
         {
-          name: "Live Demo",
+          name: "Preview",
           icon: newtab,
           link: "https://googleformsclone.netlify.app"
         },
@@ -121,7 +121,7 @@ export const data = {
           link: "https://github.com/SurajPhulara/SplashCanvas"
         },
         {
-          name: "Live Demo",
+          name: "Preview",
           icon: newtab,
           link: "https://canvassplash.netlify.app"
         },
