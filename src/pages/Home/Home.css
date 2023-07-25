@@ -130,7 +130,40 @@
     .image_container{
         margin-top: 40px;
     }
+    
   }
+
+  @media (max-width: 1000px) {
+    .contact-body{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .contact-body>div,
+    form{
+        min-width: 100%;
+    }
+    label,
+    input{
+        /* text-align: center; */
+    }
+    .contact-links{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .contact-links  a{
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+  }
+
 
   @media (max-width: 950px) {
 

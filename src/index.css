@@ -28,6 +28,11 @@ a{
   cursor: pointer;
 }
 
+input,
+textarea{
+  outline: 0;
+}
+
 /* Document level adjustments */
 html {
   font-size: 16px;

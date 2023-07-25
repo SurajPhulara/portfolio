@@ -25,7 +25,7 @@ const Navbar = () => {
         <a href="#about-me" className="navbar_links" onClick={handleNavLinkClick}>About</a>
         <a href="#skills" className="navbar_links" onClick={handleNavLinkClick}>Skills</a>
         <a href="#projects" className="navbar_links" onClick={handleNavLinkClick}>Projects</a>
-        <a href="#" className="navbar_links" onClick={handleNavLinkClick}>Contact</a>
+        <a href="#contact-me" className="navbar_links" onClick={handleNavLinkClick}>Contact</a>
         <a href="#" className="hire_btn"> Hire Me </a>
 
         <div className="navbar_menu-toggle" onClick={handleMenuToggle}>
@@ -39,7 +39,7 @@ const Navbar = () => {
             <a href="#about-me" className="navbar_links_menubar" onClick={handleNavLinkClick}>About</a>
             <a href="#skills" className="navbar_links_menubar" onClick={handleNavLinkClick}>Skills</a>
             <a href="#projects" className="navbar_links_menubar" onClick={handleNavLinkClick}>Projects</a>
-            <a href="#" className="navbar_links_menubar" onClick={handleNavLinkClick}>Contact</a>
+            <a href="#contact-me" className="navbar_links_menubar" onClick={handleNavLinkClick}>Contact</a>
           </div>
         )}
 
