@@ -48,7 +48,32 @@ const Home = () => {
         <div className="right flex flex-col justify-center gap-6  w-2/4">
           <div className="text-xl font-semibold text-[#e88c09]">ABOUT ME</div>
           <div className="text-2xl text-blue-600">I'm a Full-Stack Web Developer and UX/UI Designer</div>
-          <div className="text-xl text-gray-700 ">With a passion for creating visually appealing and user-friendly digital experiences, I bring ideas to life through seamless web development and intuitive UX/UI design. My goal is to deliver high-quality solutions that not only meet clients' needs but also exceed their expectations. By combining technical expertise with a deep understanding of user-centered design principles, I strive to create captivating websites that engage users and leave a lasting impression. Let's collaborate and transform your ideas into stunning digital realities.</div>
+          <div className="text-xl text-gray-700 ">
+          Hello there! I'm Suraj Phulara, a passionate UX/UI designer and full-stack web developer hailing from the scenic landscapes of Uttarakhand, India. 
+          <br/>
+          My journey began with a fascination for the digital world and a curiosity about how things work behind the screens which led me to pursue a career in Computer Science where I honed my skills and fell in love with the art of coding and design.
+<br/>
+My expertise lies in the MERN stack technologies that allows me to create user-friendly web applications. 
+But what truly sets me apart is my ability to blend technical skills with a deep understanding of user experience design. 
+<br/>
+{/* I'm also proficient in JavaScript, HTML, CSS, and various programming languages.  */}
+I believe that at the heart of every great product is a deep understanding of the human experience.
+ {/* This philosophy guides my approach to design, */}
+ {/* where I strive to create intuitive, engaging experiences that meet user needs and exceed their expectations. */}
+
+{/* Throughout my journey, I've had the opportunity to work on several exciting projects. One of my favorites is Serene Stones, a jewelry e-commerce website I developed. I created a user-friendly interface using HTML, CSS, JavaScript, and React.js technologies, ensuring the website was cross-browser compatible, mobile responsive, and optimized for user experience. Another project I'm proud of is a Google Forms replica application, where I utilized the MERN stack and MongoDB for seamless survey creation and management. */}
+
+{/* Collaboration is at the heart of my work. I believe that great things are never achieved in isolation, and I thrive in environments where I can work alongside others to bring ideas to life. I'm always eager to learn and grow, and I'm currently expanding my knowledge through various courses and industry events. */}
+
+<br/>
+{/* If you're looking for a developer who can bring a blend of technical expertise, creative design, and a user-centered approach to your project, I'd love to chat.  */}
+<br/>
+I'm open to Job opportunities so feel free to explore my portfolio or get in touch with me directly. Let's create something amazing together!
+
+{/* Thank you for taking the time to learn more about me. I look forward to the possibility of working together. */}
+            
+            {/* With a passion for creating visually appealing and user-friendly digital experiences, I bring ideas to life through seamless web development and intuitive UX/UI design. My goal is to deliver high-quality solutions that not only meet clients' needs but also exceed their expectations. By combining technical expertise with a deep understanding of user-centered design principles, I strive to create captivating websites that engage users and leave a lasting impression. Let's collaborate and transform your ideas into stunning digital realities. */}
+            </div>
           <div className="text-2xl text-blue-600">Suraj Phulara</div>
           <div className="socialmedia flex items-center gap-16 ml-[-5px]">
             <a href="https://www.linkedin.com/in/suraj-phulara-b63b23193/" className="linkedin flex items-center gap-2 text-xl text-[#0078d4]"> <img src={linkedinicon} alt="linkedin" className='flex justify-start' /> <p className=' pt-2'>LinkedIn</p></a>
