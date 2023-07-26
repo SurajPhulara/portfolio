@@ -111,7 +111,7 @@ const Home = () => {
       <div className=" contact-me h-fit pt-[100px] pb-[30px] pr-[5vw] pl-[5vw] flex flex-col gap-6 text-center" id='contact-me'>
         <div className="heading flex flex-col gap-2 ">
           <div className="text-xl font-semibold text-[#e88c09] ">GET IN TOUCH</div>
-          <div className="text-2xl  text-blue-600">I'd love to hear from you! Whether you have a project in mind or just want to say hello, feel free to drop me a message.</div>
+          <div className="text-2xl  text-blue-600">I'd love to hear from you! Whether you have a project in mind, have any feedback for me or just want to say hello, feel free to drop me a message.</div>
           {/* <div className="text-2xl text-blue-600">Don't hesitate to drop me a message.</div> */}
         </div>
         <div className="contact-body flex justify-between mt-8 text-xl gap-4 text-left">
